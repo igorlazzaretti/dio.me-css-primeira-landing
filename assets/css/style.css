@@ -1,0 +1,77 @@
+/* Imports: Reset, Font... */
+
+@import url(https://igorlazzaretti.com/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* All */
+*{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+p{
+    color: #FFF    }
+
+/* Header - Banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 605px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    margin: auto;
+    object-fit: contain;
+}
+header p{
+    text-wrap:wrap;
+}
+header button {
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3BA1CD;
+    background-color: transparent;
+    color: #31A8DD;
+    font-size: 1rem; /* Root font size is 16px = 1rem*/
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin: 24px 0 75px 0;
+    text-transform: uppercase;
+    padding: 20px 52px;
+}
+
+/* Main  */
+
+
+
+
+/* Footer   */
+footer{
+    padding: 59px 0;
+    text-align: center;
+    border-top: 2px solid #33A8d8;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+footer .dio-logo {
+    width: 310px;
+    height: 44px;
+}
+footer p{
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+}
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: 700;
+}
