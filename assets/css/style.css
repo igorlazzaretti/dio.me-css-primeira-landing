@@ -19,7 +19,8 @@ body {
 p {
     color: #FFF
 }
-
+/* h2 means the two titles in Main "O QUE VOU APRENDER?
+" and "EVOLUA E ENCARE NOVOS DESAFIOS PROFISSIONAIS"  */
 h2 {
     color: #33A8DB;
     font-size: 2rem;
@@ -28,8 +29,9 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 24px;
 }
-
+/* All the 3 parts of Main are diveded by a section tag */
 section {
+    /* 100px of up and bottom and auto for the sides */
     margin: 100px auto;
 }
 
@@ -96,14 +98,13 @@ header button {
     padding: 20px 52px;
 }
 
-/* Main  */
+/*  .................  Main  1st Part */
 #course-content {
     width: 792px;
     margin: 118px auto;
     text-align: center;
 
 }
-
 
 #course-content .modules-list {
     margin: 24px 0;
@@ -124,7 +125,7 @@ header button {
 #course-content .modules-list .module span {
     color: #33A8DB;
 }
-
+/*  .................  Main  2nd Part */
 #transform-world {
     height: 360px;
     background-size: cover;
@@ -142,12 +143,11 @@ header button {
     font-weight: 900;
     max-width: 250px;
 }
-
+/*  .................  Main  3rd Part and last one */
 #professional-challenges {
     text-align: center;
     width: 800px;
 }
-
 
 #professional-challenges img {
     margin-top: 32px;
@@ -158,10 +158,10 @@ header button {
 }
 
 
-
-/* Footer   */
+/* .....     ....    Footer   */
 footer {
     padding: 59px 0;
+    /* ......... aligns the Image as well */
     text-align: center;
     border-top: 2px solid #33A8d8;
     background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
@@ -177,7 +177,7 @@ footer p {
     font-size: 1rem;
     font-weight: 400;
 }
-
+/* ......... Footers Link dio.me */
 footer a {
     text-decoration: none;
     color: #33A8DB;
